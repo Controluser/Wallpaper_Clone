@@ -1,0 +1,68 @@
+body {
+  background: rgb(0,0,0);
+  min-height: 100vh;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  
+}
+
+.yellow-box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to top right, #A47002, #ECD203);
+  border-radius: 30px;
+  position: relative;
+}
+
+.orange-box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, #FD550C, #FE1003);
+  border-radius: 30px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.tr-box2 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom right, rgba(189,189,189,.5), rgba(189,189,189,0) );
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+}
+
+.tr-box1 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom, rgba(189,189,189,.5), rgba(189,189,189,0) );
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-radius: 30px;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+}
+
+.tr-box3 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom, rgba(189,189,189,.5), rgba(189,189,189,0) );
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  
+}
